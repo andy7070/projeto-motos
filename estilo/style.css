@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Dancing + Script & display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --font01: 'Bebas Neue', sem serifa;
+    --font02: 'Dancing Script', cursiva;
+}
+
+header > h1{
+   padding-top: 11%;
+   padding-bottom: 11%;
+  font-family: var(--font01);
+    background-color: rgba(0, 0, 0, 0.479);
+    background-image: url(../imagens/motocb500.02.png);
+   
+    background-position:right center;
+    
+    color: white;
+    text-align: center;
+}
+
